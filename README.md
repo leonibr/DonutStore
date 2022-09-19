@@ -47,34 +47,3 @@ To move on, stash your changes and checkout the `step2` branch.
 git stash //hides your changes you just made
 git checkout step2
 ```
-
-## Migration
-
-### Prerequisite
-
--   Current version is Angular 11 and Scully 1.0.0
--   Make sure you start the api project and leave it runing.
--   Clone this repo to a `DonutStore` folder and execute the following steps:
-
-```bash
-> npm install
-> npm run build
-> npm run scully
-> npm run scully:serve
-```
-
-Then you should see something similar to:
-
-```bash
-starting static server
-Scully static server started on "http://localhost:1668/"
-Angular distribution server started on "http://localhost:1864/"
-```
-
-`Ctrl+C` to stop it and then remove the `dist/` folder
-
-Now that is working we will move to Angular 12
-
-```bash
-> ng update
-```
