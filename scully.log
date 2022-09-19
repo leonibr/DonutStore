@@ -412,3 +412,124 @@ TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Re
 
 route: "/donuts/glazed-cake-doughnut-holes" could not inline CSS
 TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+Folder "./scully" doesn't seem to contain custom plugins Deprecation Notice:
+       ======================================================================
+         From now on, the plugin that is being used to render a route is
+         able to be changed by the user. You can do this by adding or
+         enabling the plugin your scully.DonutStore.config.ts
+         file. For your convenience, we loaded the Puppeteer plugin for you.
+
+         To disable this warning enable the plugin of your choice.
+         for Puppeteer please add:
+             import '@scullyio/scully-plugin-puppeteer';
+          to your scully.DonutStore.config.ts file.
+
+          When you get this warning while not using scully-plugin-puppeteer
+          you need to set the defaultRouteRenderer to the name of your plugin.
+          The defaultRouteRenderer is now set to 'routeRenderer'.
+       ======================================================================
+
+handleUnknownRoute: "/donuts/original-filled-original-kreme%E2%84%A2", 404:""handleUnknownRoute: "/donuts/oreo%C2%AE-cookie-glazed-doughnut", 404:""handleUnknownRoute: "/donuts/oreo%C2%AE-cookie-over-the-top-doughnut", 404:""handleUnknownRoute: "/donuts/original-filled-chocolate-kreme%E2%84%A2", 404:""
+
+
+
+Route "/donuts/original-filled-original-kreme™" not provided by angular appRoute "/donuts/oreo®-cookie-over-the-top-doughnut" not provided by angular appRoute "/donuts/oreo®-cookie-glazed-doughnut" not provided by angular appRoute "/donuts/original-filled-chocolate-kreme™" not provided by angular app
+
+
+
+route: "/donuts/reese-s-classic" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+route: "/donuts/chocolate-iced-glazed-with-sprinkles" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+route: "/donuts/chocolate-iced-custard-filled" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+route: "/donuts/oreo-cookies-and-kreme" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+route: "/donuts/chocolate-iced-glazed" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+route: "" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Bufferroute: "/donuts/glazed-lemon-filled" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Bufferroute: "/donuts/chocolate-iced-with-kreme-filling" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+route: "/donuts/original-glazed-doughnut" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+
+
+route: "/donuts/cake-batter-doughnut" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Bufferroute: "/donuts/strawberry-iced-with-sprinkles" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Bufferroute: "/donuts/glazed-raspberry-filled" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+
+
+route: "/donuts/chocolate-glazed-doughnut" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+route: "/donuts/glazed-with-kreme-filling" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Bufferroute: "/donuts/apple-fritter" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Bufferroute: "/donuts/chocolate-iced-cake" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+
+
+route: "/donuts/chocolate-iced-raspberry-filled" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+route: "/donuts/glazed-blueberry-cake" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+route: "/donuts/glazed-chocolate-cake" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+route: "/donuts/chocolate-iced-glazed-cruller" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Bufferroute: "/donuts/traditional-cake" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Bufferroute: "/donuts/cinnamon-sugar" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+
+route: "/donuts/cinnamon-bun" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+route: "/donuts/cinnamon-apple-filled" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Bufferroute: "/donuts/glazed-sour-cream" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+route: "/donuts/cinnamon-twist" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+
+
+route: "/donuts/dulce-de-leche" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Bufferroute: "/donuts/double-dark-chocolate" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+
+route: "/donuts/maple-iced-glazed" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+route: "/donuts/mini-original-glazed-doughnuts" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Bufferroute: "/donuts/glazed-cinnamon" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Bufferroute: "/donuts/glazed-cruller" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+
+
+route: "/donuts/mini-chocolate-iced-glazed" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+route: "/donuts/mini-chocolate-iced-with-sprinkles" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+route: "/donuts/mini-strawberry-iced-with-sprinkles" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+route: "/donuts/powdered-with-strawberry-kreme" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Bufferroute: "/donuts/powdered-blueberry-filled" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+
+route: "/donuts/powdered-cinnamon-cake" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+route: "/donuts/powdered-with-lemon-kreme" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Bufferroute: "/donuts/powdered-strawberry-filled" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Bufferroute: "/donuts/powdered-cake" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+
+
+route: "/donuts/new-york-cheesecake" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Bufferroute: "/donuts/original-glazed-doughnut-holes" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+
+route: "/donuts/strawberry-iced" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+route: "/donuts/glazed-cake-doughnut-holes" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+route: "/about" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Bufferroute: "/donuts/glazed-chocolate-cake-doughnut-holes" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Bufferroute: "/donuts/glazed-blueberry-cake-doughnut-holes" could not inline CSS
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Buffer
+
+

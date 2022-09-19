@@ -2,7 +2,7 @@ import { httpGetJson, registerPlugin, ScullyConfig } from '@scullyio/scully';
 import { criticalCSS } from '@scullyio/scully-plugin-critical-css';
 
 function myDonutsIdPlugin(unhandledRoute) {
-    return httpGetJson('http://localhost:3000/donuts').then(donuts => {
+    return httpGetJson('http://localhost:3000/donuts').then((donuts: any[]) => {
         return donuts.map(donut => ({ route: `/donuts/${donut.id}` }));
     });
 }

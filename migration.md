@@ -88,3 +88,60 @@ And then you should see something like:
 ```
 
 After following the above links and check everything is working then we can save and commit.
+
+## Migrate Angular 13 to 14
+
+`Ctrl+C` to stop Scully if it is running and then remove the `dist/` folder
+
+```bash
+> ng update @angular/cli@14
+> npm install
+> npm run build
+```
+
+Update `angular.json` file to add the `defaultProject` entry if not present already:
+
+```json
+{
+    "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+    "version": 1,
+    "newProjectRoot": "projects",
+    "projects": {
+        "DonutStore": {
+            ... // REMOVED FOR BREVITY
+        }
+    },
+    /** ADD THE LINE BELOW  **/
+    "defaultProject": "DonutStore",
+    "cli": {
+        "analytics": "f630798a-e215-409c-8819-cde30d5df125"
+    }
+}
+```
+
+Update `scully.DotnutStore.config.ts` to satisfy Typescript:
+
+```ts
+function myDonutsIdPlugin(unhandledRoute) {
+    return httpGetJson('http://localhost:3000/donuts').then((donuts: any[]) => {
+        return donuts.map(donut => ({ route: `/donuts/${donut.id}` }));
+    });
+}
+```
+
+Now let's run scully to check everything is working
+
+```bash
+> npm run scully
+> npm run scully:serve
+```
+
+And then you should see something like:
+
+```bash
+  ✔ Starting servers for project "DonutStore"
+  ✔ Started Scully static server on "http://localhost:1668/"
+  ✔ Started Angular distribution server on "http://localhost:1864/"
+```
+
+After following the above links and check everything is working then we can save and commit.
