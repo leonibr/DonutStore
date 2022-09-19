@@ -163,3 +163,10 @@ Using stored unhandled routes!.
 Using stored unhandled routes!.
    To discover new routes in the angular app use "npm run scully -- --scanRoutes"
 ----------------------------------
+Using deprecated plugin type:"render"  use "postProcessByHtml" instead
+Using deprecated plugin type:"render"  use "postProcessByHtml" instead
+Route "/donuts/oreo®-cookie-glazed-doughnut" not provided by angular appRoute "/donuts/oreo®-cookie-over-the-top-doughnut" not provided by angular appRoute "/donuts/original-filled-original-kreme™" not provided by angular appRoute "/donuts/original-filled-chocolate-kreme™" not provided by angular app
+
+
+
+Using deprecated plugin type:"render"  use "postProcessByHtml" instead
