@@ -24,11 +24,11 @@ Scully static server started on "http://localhost:1668/"
 Angular distribution server started on "http://localhost:1864/"
 ```
 
-`Ctrl+C` to stop it and then remove the `dist/` folder
-
 Now that is working we will move to Angular 12
 
 ## Migrate Angular 11 to 12
+
+`Ctrl+C` to stop Scully if it is running and then remove the `dist/` folder
 
 ```bash
 > ng update @angular/cli@12
@@ -60,9 +60,31 @@ Once finished goto to `package.json`, then search and update the dependencies to
 Then you should see something similar to:
 
 ```bash
-starting static server
-Scully static server started on "http://localhost:1668/"
-Angular distribution server started on "http://localhost:1864/"
+✔ starting static server
+✔ Scully static server started on "http://localhost:1668/"
+✔ Angular distribution server started on "http://localhost:1864/"
 ```
 
-After follow the above links and check everything is working then we can save and commit.
+After following the above links and check everything is working then we can save and commit.
+
+## Migrate Angular 12 to 13
+
+`Ctrl+C` to stop Scully if it is running and then remove the `dist/` folder
+
+```bash
+> ng update @angular/cli@13
+> npm install
+> npm run build
+> npm run scully
+> npm run scully:serve
+```
+
+And then you should see something like:
+
+```bash
+  ✔ Starting servers for project "DonutStore"
+  ✔ Started Scully static server on "http://localhost:1668/"
+  ✔ Started Angular distribution server on "http://localhost:1864/"
+```
+
+After following the above links and check everything is working then we can save and commit.
